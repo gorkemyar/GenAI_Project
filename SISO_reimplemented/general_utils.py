@@ -42,6 +42,8 @@ def image_to_tensor(image):
     image = TF.pil_to_tensor(image).float().unsqueeze(0) / 255.0
     return image
 
+def tensor_to_image(tensor):
+    return TF.to_pil_image(tensor)
 
 def resize_and_center_crop(img, target_size=(512, 512)):
     # Calculate the aspect ratio and resize the image
