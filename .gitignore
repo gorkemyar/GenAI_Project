@@ -1,9 +1,0 @@
-.vscode/
-SISO_original/logs/
-SISO_original/weights/
-SISO_original/SISO_reimplemented/weights/
-__pycache__/
-**/__pycache__/
-SISO_original/SISO_reimplemented/__pycache__/*
-SISO_original/.tmp.drivedownload/
-SISO_original/.tmp.driveupload/
